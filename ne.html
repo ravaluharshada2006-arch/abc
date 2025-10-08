@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshada Sweets - Banner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    /* Banner Section */
+    .banner {
+      position: relative;
+      width: 100%;
+      height: 600px; /* Adjust height as needed */
+      background-image: url('https://shaadiwish.com/blog/wp-content/uploads/2021/08/Bombay-Sweet-Shop.jpg'); 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Overlay for better readability */
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+    }
+
+    /* Text on Banner */
+    .banner-content {
+      position: relative;
+      text-align: center;
+      color: #ffffff;
+      z-index: 1;
+    }
+
+    .banner-content h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .banner-content p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .banner {
+        height: 300px;
+      }
+      .banner-content h1 {
+        font-size: 2rem;
+      }
+      .banner-content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Harshada Sweets</h1>
+      <p>Traditional taste, pure sweetness!</p>
+            <a href="shopname.html">Home</a>
+
+    </div>
+  </section>
+
+</body>
+</html>
